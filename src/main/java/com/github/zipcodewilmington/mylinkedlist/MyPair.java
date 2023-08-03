@@ -16,7 +16,7 @@ public class MyPair {
         return key;
     }
 
-    protected void setKey(String key) {
+    public void setKey(String key) {
         this.key = key;
     }
 
@@ -24,7 +24,7 @@ public class MyPair {
         return value;
     }
 
-    protected void setValue(Integer value) {
+    public void setValue(Integer value) {
         this.value = value;
     }
 
